@@ -1,2 +1,2 @@
-# vim-drabolieve
+# vim-olievedrab
 vim color file
