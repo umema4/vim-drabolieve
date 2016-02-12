@@ -1,7 +1,7 @@
 " Vim color file
 " Maintainer: umema4
-" Last Change: Aug, 15, 2015
-" Version: 0.1
+" Last Change: Feb, 12, 2016
+" Version: 0.2
 " License: MIT
 
 set background=dark
@@ -58,14 +58,14 @@ hi Number         guifg=#ff6347
 hi Boolean        guifg=#ff6347
 hi Float          guifg=#ff6347
 
-hi Identifier     guifg=#98fb98
-hi Function       guifg=#98fb98
+hi Identifier     guifg=#7ccd7c
+hi Function       guifg=#CDBA96
 
-hi Statement      gui=bold guifg=#ffff60
-hi Conditional    gui=bold guifg=#ffff60
-hi Repeat         gui=bold guifg=#ffff60
-hi Labe           gui=bold guifg=#ffff60
-hi Operator       guifg=#fa8072
+hi Statement      gui=bold guifg=#cdcd00
+hi Conditional    gui=bold guifg=#cdcd00
+hi Repeat         gui=bold guifg=#cdcd00
+hi Labe           gui=bold guifg=#cdcd00
+hi Operator       guifg=#EE9572
 "hi Keyword
 "hi Exception
 
@@ -97,4 +97,10 @@ hi Ignore         guifg=bg
 hi Error          gui=bold guifg=#ffffff guibg=#ff0000
 
 "hi Todo
+
+" JS
+hi javaScriptFunctionKey guifg=#f5f5f5
+hi javaScriptObjectKey guifg=#f5f5f5
+hi javaScriptPropietaryMethods guifg=#f5f5f5
+hi javaScriptEventListenerMethods guifg=#f5f5f5
 
