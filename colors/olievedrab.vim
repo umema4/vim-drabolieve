@@ -59,12 +59,12 @@ hi Boolean        guifg=#ff6347
 hi Float          guifg=#ff6347
 
 hi Identifier     guifg=#7ccd7c
-hi Function       guifg=#CDBA96
+hi Function       guifg=#f4d0db
 
 hi Statement      gui=bold guifg=#cdcd00
 hi Conditional    gui=bold guifg=#cdcd00
 hi Repeat         gui=bold guifg=#cdcd00
-hi Labe           gui=bold guifg=#cdcd00
+hi Label          gui=bold guifg=#cdcd00
 hi Operator       guifg=#EE9572
 "hi Keyword
 "hi Exception
@@ -99,8 +99,16 @@ hi Error          gui=bold guifg=#ffffff guibg=#ff0000
 "hi Todo
 
 " JS
+hi javaScriptFuncArg guifg=#d59f5b
 hi javaScriptFunctionKey guifg=#f5f5f5
 hi javaScriptObjectKey guifg=#f5f5f5
 hi javaScriptPropietaryMethods guifg=#f5f5f5
 hi javaScriptEventListenerMethods guifg=#f5f5f5
+hi javascriptLabel guifg=#e78db3
+hi javascriptBraces guifg=#8db3e7
+hi javascriptBrackets guifg=#8db3e7
+
+" indent
+hi IndentGuidesOdd guibg=#3B4A20 ctermbg=darkgray
+hi IndentGuidesEven guibg=#203010 ctermbg=black
 
